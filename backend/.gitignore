@@ -21,6 +21,7 @@ pip-selfcheck.json
 friends.db
 
 # Compiled Python files
+__pycache__/
 *.pyc
 
 # Dependency directories
