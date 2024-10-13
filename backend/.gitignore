@@ -1,4 +1,4 @@
-_ _pycache_ _/
+__pycache__
 *.py[cod]
 
 venv/
