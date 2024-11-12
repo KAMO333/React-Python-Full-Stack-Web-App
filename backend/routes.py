@@ -20,7 +20,7 @@ def create_friend():
     description = data.get("description")
     gender = data.get("gender")
 
-     # Fetch avatar image based on gender
+    # Fetch avatar image based on gender
     if gender == "male":
       img_url = f"https://avatar.iran.liara.run/public/boy?username={name}"
     elif gender == "female":
