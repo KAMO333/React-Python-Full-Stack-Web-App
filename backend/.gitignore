@@ -9,8 +9,8 @@ lib64/
 pip-selfcheck.json
 
 # IDE files
-.cspell.json
 .vscode/
+.cspell.json
 .idea/
 *.iml
 *.pyc
