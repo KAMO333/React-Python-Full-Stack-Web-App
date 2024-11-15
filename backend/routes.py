@@ -59,4 +59,25 @@ def delete_friend(id):
   except Exception as e:
     db.session.rollback()
     return jsonify({"error":str(e)}),500
+
+# Update a friend profile
+@app.route("/api/friends/<int:id>",methods=["PATCH"])
+def update_friend(id):
+  try:
+    friend = Friend.query.get(id)
+    if friend is None:
+      return jsonify({"error":"Friend not found"}), 404
+    
+    data = request.json
+
+    friend.name = data.get("name",friend.name)
+    friend.role = data.get("role",friend.role)
+    friend.description = data.get("description",friend.description)
+    friend.gender = data.get("gender",friend.gender)
+
+    db.session.commit()
+    return jsonify(friend.to_json()),200
+  except Exception as e:
+    db.session.rollback()
+    return jsonify({"error":str(e)}),500
   
