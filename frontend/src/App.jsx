@@ -1,9 +1,13 @@
-import { Button } from "./components/ui/button";
+import { Container, Stack } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <Button>Hello World</Button>
+      <Stack minH={"100vh"}>
+        <Navbar />
+        <Container maxH={"1200px"} my={4}></Container>
+      </Stack>
     </>
   );
 }
