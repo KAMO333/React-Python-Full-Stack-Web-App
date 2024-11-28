@@ -1,5 +1,6 @@
 import { Container, Stack, Text } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
+import UserGrid from "./components/UserGrid";
 
 function App() {
   return (
@@ -16,16 +17,17 @@ function App() {
           mb={8}
         >
           <Text
-            as={"span"}
+            as="span"
             bgGradient="to-r"
             gradientFrom="cyan.400"
             gradientTo="blue.500"
-            bgClip={"text"}
+            bgClip="text"
           >
             My Besties
           </Text>
           🚀
         </Text>
+        <UserGrid />
       </Container>
     </Stack>
   );
