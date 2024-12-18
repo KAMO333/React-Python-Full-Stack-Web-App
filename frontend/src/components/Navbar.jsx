@@ -14,7 +14,7 @@ const Navbar = () => {
         px={4}
         my={4}
         borderRadius={5}
-        bg={useColorModeValue("gray.200", "gray.700")}
+        bg={useColorModeValue("gray.300", "gray.800")}
       >
         <Flex h="16" alignItems={"center"} justifyContent={"space-between"}>
           {/* Left side */}
