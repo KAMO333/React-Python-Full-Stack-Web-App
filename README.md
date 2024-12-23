@@ -19,13 +19,13 @@ Build a Friend Store with Python(Flask) and JavaScript(React)
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/burakorkmez/react-python-tutorial
+git clone git@github.com:KAMO333/React-Python-Full-Stack-Web-App.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd react-python-tutorial
+cd React-Python-Full-Stack-Web-App
 ```
 
 3. Navigate to the backend directory:
