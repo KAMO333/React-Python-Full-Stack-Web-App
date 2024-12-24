@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Text, Box, Heading, IconButton, Flex } from "@chakra-ui/react";
 import { Avatar } from "./ui/avatar";
 import { BiTrash } from "react-icons/bi";
-// import EditModal from "./EditModal";
+import EditModal from "./EditModal";
 
 const UserCard = ({ user }) => {
   return (
@@ -17,7 +17,7 @@ const UserCard = ({ user }) => {
             </Box>
           </Flex>
           <Flex>
-            {/* <EditModal /> */}
+            <EditModal />
             <IconButton
               variant="ghost"
               colorPalette="red"
