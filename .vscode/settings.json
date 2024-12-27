@@ -1,3 +1,14 @@
 {
-  "cSpell.words": ["Besties"]
+  "cSpell.words": [
+    "Besties",
+    "colorama",
+    "gunicorn",
+    "itsdangerous",
+    "jsonify",
+    "pycache",
+    "selfcheck",
+    "setuptools",
+    "venv",
+    "Werkzeug"
+  ]
 }
