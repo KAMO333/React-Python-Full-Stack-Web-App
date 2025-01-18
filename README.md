@@ -2,8 +2,6 @@
 
 Build a Friend Store with Python(Flask) and JavaScript(React)
 
-![Demo App](https://i.ibb.co/S6Xgb6c/Group-98.png)
-
 ### Table of Contents
 
 -   ⚙️ Tech Stack: Python, React, SQLite, SQLAlchemy, Flask, Chakra UI
